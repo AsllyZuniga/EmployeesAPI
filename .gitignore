@@ -1,0 +1,50 @@
+## .NET
+**/bin/
+**/obj/
+**/Debug/
+**/Release/
+*.user
+*.suo
+*.vs/
+*.sln.docstates
+
+## Visual Studio
+.vs/
+*.sln.ide/
+
+## JetBrains Rider
+.idea/
+*.sln.iml
+
+## NuGet
+packages/
+*.nupkg
+**/[Pp]ackages/*
+
+## OS
+Thumbs.db
+.DS_Store
+
+## Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Ww][Ii][Nn]32/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+## VS Code
+.vscode/
+
+## Secrets & Connection Strings
+appsettings.Development.json
+appsettings.Local.json
+appsettings.*.local.json
+secrets.json
+**/Properties/launchSettings.json
