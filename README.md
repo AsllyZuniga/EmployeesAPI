@@ -19,7 +19,7 @@ Employees/                ASP.NET Core Web API (presentation layer)
 - **CQRS** pattern via MediatR
 - **Dapper** for lightweight data access
 - **ADO.NET** with SQL Server
-- **Swagger / OpenAPI** for API documentation
+- **Postman** for API testing
 
 ## Entities
 
@@ -91,4 +91,4 @@ cd Employees
 dotnet run
 ```
 
-The API will be available at `https://localhost:5001`. Swagger UI is accessible at `/swagger` in development mode.
+The API will be available at `https://localhost:5001`. You can test the endpoints using Postman or any HTTP client.
